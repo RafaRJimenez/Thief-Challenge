@@ -1,0 +1,52 @@
+.start{
+	background-color: #f5ebf5;
+	width: 800px;
+	margin: 50px auto 0 ;
+	font-weight: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.img {
+	width: 500px;
+	height: 283px;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+}
+
+span{
+	color: #9f1c1c;
+	font-weight: 30px;
+}
+
+.decision{
+	width: 140px;
+	height: 140px;
+	margin: 0 20px 0 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.decision img{
+	height: 100%;
+}
+
+.choices{
+	display: table;
+	margin: 50px auto;
+}
+
+.dontPlay{
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+}
+
+.fifa {
+	width: 500px;
+	margin: auto;
+}
