@@ -1,6 +1,6 @@
 var choosing=document.getElementsByClassName("decision");
 var next;
-var weapons;
+var items;
 
 choosing[0].addEventListener('click', play, false);
 choosing[1].addEventListener('click', dontPlay, false);
@@ -28,9 +28,23 @@ function thiefAppears(){
     "<div class='assault'>AUGGGGHHH! LOOKS LIKE SOMEBODY IS INTERESTED IN YOUR MONEY. YOU NEED TO SORT IT OUT!</div><div class='thief'><img src='media/thief.jpg'></div><div class ='assault'>HOW DO YOU WANT TO GET RID OF HIM?</div>"+
     "<div class='weapons'><div class='item'><img src='media/punch.jpg'></div><div class='item'><img src='media/police.jpg'></div><div class='item'><img src='media/running.jpg'></div></div>";
     document.body.appendChild(thief);
-    weapons=document.getElementsByClassName("item");
-    item[0].addEventListener('click', punch, false);
-    item[1].addEventListener('click', punch, false);
-    item[2].addEventListener('click', punch, false);
+    items=document.getElementsByClassName("item");
+    items[0].addEventListener('click', punch, false);
+    items[1].addEventListener('click', police, false);
+    items[2].addEventListener('click', running, false);
 }
 
+function punch(){
+	var fight = document.createElement('div');
+	fight.innerHTML="<div class='assault'>WHAT A PITY!! HE HAD A KNIFE AND WAS FASTER THAN YOU. <br>YOU LOSE THE MONEY BUT WIN A CUT IN YOUR NECK </div>"+
+	"<div class='hospital'><img src='media/hospital.jpg'></div>";
+	document.body.appendChild(fight);
+}
+
+function police(){
+	
+}
+
+function running(){
+
+}

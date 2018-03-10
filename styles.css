@@ -1,3 +1,7 @@
+body {
+	font-family: Arial;
+}
+
 .start{
 	background-color: #f5ebf5;
 	width: 800px;
@@ -99,11 +103,20 @@ span{
 }
 
 .item {
-	width: 33%;
+	width: 33.33%;
 	float: left;
 	cursor: pointer;
 }
 
 .item img {
 	height: 230px;
+}
+
+.hospital {
+	width: 500px;
+	margin: auto;
+}
+
+.hospital img {
+	width: 100%;
 }
