@@ -50,3 +50,60 @@ span{
 	width: 500px;
 	margin: auto;
 }
+
+.play{
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bank {
+	width: 500px;
+	margin: auto;
+
+}
+
+.next {
+	width: 230px;
+	text-align: center;
+	margin: auto;
+	cursor: pointer;
+}
+
+.next img {
+	width: 100%;
+}
+
+.assault {
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.thief {
+	width: 500px;
+	margin: auto;
+}
+
+.thief img {
+	width: 100%;
+}
+
+.weapons {
+	width: 800px;
+	margin:auto;
+}
+
+.item {
+	width: 33%;
+	float: left;
+	cursor: pointer;
+}
+
+.item img {
+	height: 230px;
+}
