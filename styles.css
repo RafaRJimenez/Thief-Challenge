@@ -1,5 +1,5 @@
 body {
-	font-family: Arial;
+	font-family: Roboto;
 }
 
 .start{
@@ -50,7 +50,8 @@ span{
 	text-align: center;
 }
 
-.fifa {
+
+.medal {
 	width: 500px;
 	margin: auto;
 }
@@ -80,13 +81,30 @@ span{
 	width: 100%;
 }
 
-.assault {
+.assault   {
 	width: 800px;
 	margin:auto;
 	background-color: #ccc;
 	text-align: center;
 	text-transform: uppercase;
 }
+
+.cops {
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.run {
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 
 .thief {
 	width: 500px;
@@ -119,4 +137,26 @@ span{
 
 .hospital img {
 	width: 100%;
+}
+
+.lucky {
+	width: 500px;
+	margin: auto;
+}
+
+.usain {
+	width: 500px;
+	margin: auto;
+}
+
+.home {
+	width: 800px;
+	margin:auto;
+	background-color: #ccc;
+	text-align: center;
+	text-transform: uppercase;
+}
+.playing {
+	width: 500px;
+	margin: auto;
 }
